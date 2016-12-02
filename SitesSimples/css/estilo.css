@@ -1,0 +1,147 @@
+.listaMenu{
+	list-style-type: none;
+	font-family: 'Slabo 27px', serif;
+	color:#535154;
+	width:541px;
+	margin-left: 20%;
+}
+.itemMenu{
+	float:left;
+	text-align:center;
+	padding:1px;
+	margin:2px;
+	background-color:#00111F;
+	border-top-style:solid; 
+	margin-bottom: 10px;
+}
+.itemMenu:hover{
+	background-color:#535154;
+	color:#B0B0B0;
+}
+.itemMenu a:link{
+	text-decoration:none;
+	color:#D6D6D6;
+	padding:10px;
+}
+.itemMenu a:hover{
+	color:#B0B0B0;
+	text-decoration:none;
+}
+.itemMenu a:visited{
+	text-decoration:none;
+	color:#D6D6D6;
+}
+
+.tudo{
+	margin:0 auto;
+	width:1000px;
+}
+.topo{
+	width:1000px;
+	height:400px;
+	background-image:url('../image/Maximo1.png'); 
+	background-repeat:no-repeat; 
+	background-position: center;
+	background-color:#00111F
+	
+}
+.menuH{
+	width:1000px;
+	float: left;
+	background-color:#002133;
+	
+}
+.menuV{
+	width:250px;
+	height:350px;
+	background-color:#00111F;
+	float:left;
+}
+.conteudo{
+	width:750px;
+	height:350px;
+	float:left;
+	text-align:center;
+	background-color:#000D17;
+}
+.rodape{
+	width:1000px;
+	height:50px;
+	clear:both;
+	background-color:#143140;
+	text-align:center;
+	color:#535154;
+
+}
+
+.texto{
+	width:450px;
+	float:left;
+	padding:15px;
+}
+.texto h2{
+	font-family: 'Slabo 27px', serif;
+	font-size:26px;
+}
+.conteudo p{
+	font-family: 'Slabo 27px', serif;
+	font-size:16px;
+	color:white;
+}
+
+.figuraTexto{
+	width:230px;
+	padding:15px;
+	float:left;
+	margin-top:80px;
+}
+.figuraTexto img{
+	width:230px;
+}
+
+.itemMenu2{
+	float:left;
+	text-align:center;
+	padding:1px;
+	margin:2px;
+}
+.listaMenu2{
+	list-style-type: none;
+	font-family: 'Slabo 27px', serif;
+	color:#535154;
+}
+
+.itemMenu2 a:link{
+	text-decoration:none;
+	color:#535154;
+}
+
+.itemMenu2 a:visited{
+	text-decoration:none;
+	color:#535154;
+}
+.figuraTexto2 img{
+	width:200px;
+}
+.figuraTexto2{
+	width:200px;
+	float:left;
+	margin-bottom:100px;
+	margin-left:60%;
+}
+
+
+.figuraTexto3{
+	width:230px;
+	padding:15px;
+	float:left;
+	margin-top:5%;
+	
+}
+.figuraTexto3 img{
+	width:230px;
+}
+
+audio {
+	margin-right:700px;
+}

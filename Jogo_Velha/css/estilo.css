@@ -1,0 +1,248 @@
+.jogo{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	border-right: solid;
+	border-bottom:solid;
+	color:#C5A4FF;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.jogo1{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	color:#C5A4FF;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+.jogo2{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	border-right: solid;
+	color:#C5A4FF;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.jogo3{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	border-left: solid;
+	color:#C5A4FF;
+}
+.jogo4{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	border-left: solid;
+	border-bottom:solid;
+	color:#C5A4FF;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.jogo5{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	border-left: solid;
+	border-bottom:solid;
+	border-right: solid;
+	color:#C5A4FF;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.jogo6{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	border-left: solid;
+	border-right: solid;
+	color:#C5A4FF;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.boxJogo{
+	width: 369px;
+    height: 321px;
+	margin-left: 57%;
+    margin-top: -4%;
+}
+
+.placar{
+    width: 467px;
+    height: 70px;
+	margin: 0 auto; 
+	margin-top:15px;
+	margin-left: 15px;
+	color:#215E21;
+	border-top-style:solid;
+	border-bottom-style:solid;
+}
+.j1{
+	font-size:20px;
+	float:left; 
+	color:#215E21;
+	margin-top:20px;
+	margin-left:50px;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+.jx{
+	text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+	float:left; 
+	color:#215E21;
+	margin-top:40px;
+	margin-left:50px;
+	
+	
+}
+.j2{
+	font-size:20px;
+	font-family: 'Josefin Sans', sans-serif;
+	float:left; 
+	color:#215E21;
+	margin-left:60px;
+	margin-top:20px;
+}
+.listaMenu{
+	list-style-type: none;
+	font-family: 'Josefin Sans', sans-serif;
+	color:#C53FFF;
+	width:541px;
+	margin-left: 35%;
+
+}
+.itemMenu{
+	float:left;
+	text-align:center;
+	padding:1px;
+	margin:2px;
+	background-color:white;
+	border-top-style:solid;
+	border-right-style:solid; 
+	border-left-style:solid;
+	margin-bottom: 10px;
+	height:40px;
+	
+}
+.itemMenu:hover{
+	background-color:#535154;
+	color:#B0B0B0;
+}
+.itemMenu a:link{
+	text-decoration:none;
+	color:black;
+	padding:10px;
+}
+.itemMenu a:hover{
+	color:#B0B0B0;
+	text-decoration:none;
+}
+.itemMenu a:visited{
+	text-decoration:none;
+	color:black;
+}
+
+.tudo{
+	margin:0 auto;
+	width:1000px;
+}
+.topo{
+	width:1000px;
+	height:300px;
+	background-image:url('../image/jogo-da-velha.jpg'); 
+	background-position: center;
+	background-color:#00111F;
+	font-size:100px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	
+}
+.menuH{
+	width:1000px;
+	float: left;
+	background-image:url('../image/jogo-da-velha - Copia.jpg'); 
+}
+.rodape{
+	width:1006px;
+	height:40px;
+	clear:both;
+	background-color:#CCCCCC;
+	text-align:center;
+	color:#535154;
+	margin-left:167px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.conteudo{
+	width:1000px;
+	height:450px;
+	float:left;
+	text-align:center;
+	border: solid;
+	color:#C5A4FF;
+	
+}
+.conteudo h1{
+	color:black;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.conteudo p{
+	color:black;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0 auto;
+	
+}
+.conteudo img {
+	width:220px;
+	margin:0 auto;
+	border: solid;
+	margin-top: 5%;
+	
+}
+.fomulario{
+	margin-top:10%;
+}
+.fomulario textarea{
+	margin-top:5%;
+}
+.fomulario input[type=submit]{
+	width:200px;
+	margin-top:5%;
+	margin-left:8%;
+}
+
+.nomes{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 15%;
+    border: solid;
+	height: 80px;
+}
+
+
+.inputs p{
+	margin-bottom: 5%;
+}
+
+.inputs{
+	margin-top: 2%;
+}
+
+.centroPlacar{
+	margin-top: 31%;
+
+}
+
+.centroPlacar h2 {
+	color:black;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}

@@ -1,0 +1,60 @@
+canvas{
+	margin-top: -18%;
+    margin-left: 25%;
+    border-style: solid;
+    border-color: #4F1A04;
+}
+
+.hud{
+	font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    background-image: url("../image/teia.png");
+    background-repeat: no-repeat;
+    margin-top: -10%;
+
+}
+#imgT {
+	margin-left: 10%
+}
+
+#imgMb {
+	margin-left: 10%
+}
+#imgMp {
+	margin-left: 10%
+}
+
+#monstroB{
+	margin-left: 15%;
+    margin-top: -3%;
+}
+
+#monstroP{
+	margin-left: 15%;
+    margin-top: -3%;
+}
+#tempo{
+	margin-left: 15%;
+    margin-top: -3%;
+
+}
+
+.rodape{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	text-align: center;
+	clear:both;
+
+}
+
+#imagem2{
+	margin-left: 60%;
+}
+
+.lua{
+	margin-left: 81%;
+}
+h4{
+	margin-bottom: -18%;
+}

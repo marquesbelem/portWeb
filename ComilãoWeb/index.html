@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="description" content="GAME">
+		<meta name="keyword" content="jogo, aula, html5, css, javascript">
+		<meta name="author" content="Diego Marques | maxbassoul@gmail.com">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/reset.css">
+		
+		<title>Comilão</title>
+	</head>
+	<body>
+		<div id="gamecontainer">
+			<div id="gamescreen">
+				<div id="sky" class="animated">
+					<div id="flyarea">
+						<div id="ceiling" class="animated"></div>
+						<div id="player" class="bird animated"></div>
+						<div id="bigscore"></div>
+						<div id="splash"></div>
+						<div id="scoreboard">
+							<div id="medal"></div>
+							<div id="currentscore"></div>
+							<div id="highscore"></div>
+							<div id="replay">
+								<img src="assets/replay.png" alt="Replay">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="land" class="animated">
+					<div id="debug"></div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			Camila Marques<br>
+			<a href="camilambdasilva@gmail.com">Envie um e-mail</a>
+		</div>
+		<div class="boundingbox" id="playerbox"></div>
+		<div class="boundingbox" id="pipebox"></div>
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.transit.min.js"></script>
+		<script src="js/buzz.min.js"></script>
+		<script src="js/gameLoop.js"></script>
+	</body>
+</html>

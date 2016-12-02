@@ -1,0 +1,159 @@
+
+body{
+	font-family: 'Itim', cursive;
+}
+
+.caption{
+	width: 80%;
+	margin-left: 50px;
+	margin-top: -5%;
+
+}
+.thumbnail{
+	width: 115%;
+	margin-left: 3%;
+	background-color: ;
+}
+
+.thumbnail label {
+	font-size: 30px;
+	margin-right: 2%;
+}
+.thumbnail caption {
+	margin-left: 10%;
+
+
+}
+
+.caption input[type=button]{
+	margin-top: 5%;
+}
+
+.boxJogo{
+	width: 236%;
+	height: 100%;
+	margin-left: 57%;
+	margin-top: -187%;
+
+}
+
+.jogo{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	/*border-right: solid;
+	border-bottom:solid;*/
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 5px;
+
+}
+.jogo1{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+.jogo2{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	/*border-right: solid;*/
+	font-family: 'Josefin Sans', sans-serif;
+}
+.jogo3{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	/*border-left: solid;*/
+}
+.jogo4{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	/*border-left: solid;
+	border-bottom:solid;*/
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 5px;
+
+}
+.jogo5{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	/*border-left: solid;
+	border-bottom:solid;
+	border-right: solid;*/
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 5px;
+
+}
+
+.jogo6{
+	width:120px;
+	height:120px;
+	font-size:20px; 
+	font-weight:bold;
+	/*border-left: solid;
+	border-right: solid;*/
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.row2{
+	margin-right: -15px;
+	margin-left: -15px;
+	font-size: 20px;
+	margin-top: -34%;
+
+
+}
+
+.row3{
+	margin-left: 50%;
+}
+
+.close{
+	margin-top: -32.4%;
+}
+
+
+.row{
+	margin-top: 9%;
+}
+
+.rodape{
+	clear:both;
+
+}
+
+.container{
+	margin-bottom: 5%;
+}
+
+
+footer .navbar {
+	margin-bottom: 0;
+	background-image: url(../image/xo.png);
+	background-position: center;
+    background-size: 100px;
+}
+
+footer p {
+	width: 20%;
+}
+
+.page-header{
+	background-image: url(../image/xo.png);
+	height: 60px;
+    margin-top: 0%;
+    background-position: center;
+    background-size: 100px;
+   
+}
+

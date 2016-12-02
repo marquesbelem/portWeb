@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Itim|Love+Ya+Like+A+Sister" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estio.css">
+
+
+	<title>Jogo da Velha</title>
+</head>
+<body>
+	<div class="page-header">
+
+	</div>
+		<div class="corpo">
+			<div ng-app="myApp" ng-controller="formCtrl">
+				<form>
+					<div class="container">
+					<div class="row">
+							<div class="col-sm-6 col-md-4">
+								<div class="thumbnail" >
+									<div class="text-center">
+										<label >{{player1}}</label>
+										<label ng-init="xpontos=0">{{xpontos}}</label>
+										<label>x</label>
+										<label ng-init="opontos=0">{{opontos}}</label>
+										<label>{{player2}}</label>
+									</div>
+
+									<div class="caption text-center">
+
+										<h3>Escreva o nomes dos Jogadores</h3>
+
+										<div class="col-md-6">
+											<input type="text" class="form-control" ng-model="inputPlayer1" />
+											<input  type="button" class="btn btn-danger  btn-lg  active" ng-click="mostraNomePlayer1(inputPlayer1)" value="Player 1" /> 
+
+										</div>
+
+										<div class="col-md-6">
+											<input type="text" class="form-control" ng-model="inputPlayer2"  />
+											<input  type="button" class="btn btn-primary btn-lg  active" ng-click="mostraNomePlayer2(inputPlayer2)" value="Player 2" /> 
+										</div>
+										<input  type="button" class="btn btn-default btn-lg  active"  ng-click="zerarJogo()" value="zerar" /> 
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row3">
+							<div class="col-sm-6 col-md-4">
+								<div class="boxJogo">
+									<input  class="btn btn-default btn-sm jogo" type="button"  ng-class="Esqr1" ng-disabled="sqr1 || Ssqr1" id="1" value="{{sqr1}}" ng-model="sqr1"  ng-click="rodada(1)"//>
+									<input class="btn btn-default btn-sm jogo5" type="button"   ng-class="Esqr2" ng-disabled="sqr2 || Ssqr2" id="2" value="{{sqr2}}"  ng-model="sqr2"  ng-click="rodada(2)" />
+									<input class="btn btn-default btn-sm jogo4" type="button"   ng-class="Esqr3" ng-disabled="sqr3 || Ssqr3" id="3" value="{{sqr3}}" ng-model="sqr3"  ng-click="rodada(3)">
+									<br>
+									<input class="btn btn-default btn-sm jogo" type="button"   ng-class="Esqr4" ng-disabled="sqr4 || Ssqr4" id="4" value="{{sqr4}}" ng-model="sqr4"  ng-click="rodada(4)" />
+									<input class="btn btn-default btn-sm jogo5" type="button"  ng-class="Esqr5" ng-disabled="sqr5 || Ssqr5" id="5" value="{{sqr5}}" ng-model="sqr5"  ng-click="rodada(5)"/>
+									<input class="btn btn-default btn-sm jogo4" type="button" ng-class="Esqr6" ng-disabled="sqr6 || Ssqr6" id="6" value="{{sqr6}}" ng-model="sqr6"  ng-click="rodada(6)"/>
+									<br>
+									<input class="btn btn-default btn-sm jogo2" type="button" ng-class="Esqr7" ng-disabled="sqr7 || Ssqr7" id="7" value="{{sqr7}}" ng-model="sqr7"  ng-click="rodada(7)" />
+									<input class="btn btn-default btn-sm jogo6" type="button" ng-class="Esqr8"  ng-disabled="sqr8 || Ssqr8" id="8" value="{{sqr8}}" ng-model="sqr8"  ng-click="rodada(8)" />
+									<input class="btn btn-default btn-sm jogo3" type="button" ng-class="Esqr9" ng-disabled="sqr9 || Ssqr9"  id="9" value="{{sqr9}}" ng-model="sqr9" ng-click="rodada(9)" />
+								</div>
+							</div>
+						</div>
+						<div  class="row2">
+							<div class="alert alert-success" role="alert" ng-show="empate">Empate 
+								<button class="close" ng-click="fecharRest(0)"><span aria-hidden="true">&times;</span></button>
+							</div> 
+
+							<div class="alert alert-success" role="alert" ng-show="oGanhou">
+								<strong>{{player2 || "Player 2"}} </strong> ganhou essa rodada ! 
+								<button  class="close"  ng-click="fecharRest(1)" ><span aria-hidden="true">&times;</span></button>
+							</div>
+							<div class="alert alert-success" role="alert" ng-show="xGanhou"><strong>{{player1 || "Player 1"}} </strong>  ganhou essa rodada
+								<button  class="close" ng-click="fecharRest(2)"><span aria-hidden="true">&times;</span></button>
+							</div>
+
+						</div>
+					</div>
+				</form>
+			</div>
+
+
+		<footer class="rodape">
+			<nav class="navbar navbar-default">
+				<p class="bg-warning">Desenvolvido por <strong>Camila Marques</strong></p>		
+			</nav>
+		</footer>
+</div>
+			<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+			<script type="text/javascript" src="js/progrma.js"></script>
+</body>
+</html>
+
